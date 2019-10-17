@@ -10,39 +10,40 @@ html {
 div {
   padding: 1.5rem;
   text-align: center;
-  border-width: 3px;
 }
 
 div a {
   padding: .4em .75em .3em;
-  display: block;
   text-decoration: none;
   margin: .3em;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+
 }
 
 .btn-subtle {
   background-color: #ccc;
-  border-radius: 8px;
   color: #fff;
 }
 
 .btn-ghost {
-  border: 3px solid #000;
-  border-radius: 8px;
+  border-color: solid #000;
   color: #000;
 }
 
 .btn-warning {
   background-color: #f33;
-  border-radius: 8px;
   color: #fff
 }
 
 .btn {
+  display: block;
   padding: .4em;
-  border-radius: 8px;
-  background-color: #333;
-  color: #fff;
   font-size: 1.125rem;
 }
 
@@ -56,7 +57,7 @@ div a {
   padding: .75em;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: #000;
 }
 
