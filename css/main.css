@@ -8,6 +8,66 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: 1rem;
   text-align: center;
+  border-width: 3px;
+}
+
+div a {
+  padding: .4em .75em .3em;
+  display: block;
+  text-decoration: none;
+  margin: .3em;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px solid #000;
+  border-radius: 8px;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-radius: 8px;
+  color: #fff
+}
+
+.btn {
+  padding: .4em;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+ .btn-small {
+  font-size: .875rem;
+  padding: .3em;
+ }
+
+.btn-big {
+  font-size: 1.5rem;
+  padding: .75em;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-ghost:hover {
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
 }
