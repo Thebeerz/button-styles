@@ -45,7 +45,7 @@ div a {
 
 .btn {
   text-align: center;
-  display: block;
+  display: inline-block;
   padding: .3em;
   font-size: 1.125rem;
 }
@@ -71,5 +71,12 @@ div a {
 }
 
 .btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn:hover {
+  background-color: #000;
+  background-color: #933;
+  background-color: #ccc;
   background-color: #666;
 }
